@@ -44,6 +44,11 @@ aside img {
 
 footer p {
     margin: 20px;
-    border-top: 2px solid steelblue;
     text-align: center;
+}
+
+footer {
+    border-top: 2px solid steelblue;
+    background-color: #EEEEEE;
+    padding: 20px;
 }
