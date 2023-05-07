@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Quicksand:wght@300;500;700&display=swap');
+
+
+:root {
+    --primary-color: #49516F;
+    --secondary-color: #8EA4D2;
+    --accent1-color: #6279B8;
+    --accent2-color: #496F5D;
+
+    --heading-font: 'Braah One', sans-serif;
+    --paragraph-font: 'Quicksand', sans-serif;
+
+    --nav-background-color: #49516F;
+    --nav-link-color: #FFFFFF;
+    --nav-hover-link-color: #49516F;
+    --nav-hover-background-color: #FFFFFF;
+}
+
+p { 
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.heroImg {
+    max-width: 1200px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1, article {
+    position: absolute;
+}
+
+.hero h1 {
+    top: 300px;
+    left: 324px;
+    color: white;
+    font-size: 75px;
+    margin: auto;
+    background-color: rgba(25, 25, 25, 0.8);
+    width: 1200px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.hero article {
+    max-width: 1000px;
+    background-color: rgba(78,175,187,0.8);
+    top: 500px;
+    left: 400px;
+    padding: 15px;
+}
+
+.hero article p {
+    color: white;
+}
+
+.hero article img {
+    width: 200px;
+    float: right;
+}
