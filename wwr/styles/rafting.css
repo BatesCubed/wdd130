@@ -74,3 +74,37 @@ body {
     width: 200px;
     float: right;
 }
+
+.adventureImages {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.adventureH1 {
+    text-align: center;
+}
+
+.adventureImages img {
+    width: auto;
+    height: 200px;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    padding: 20px;
+}
+
+footer li img {
+    width: 50px;
+}
