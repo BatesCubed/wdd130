@@ -4,19 +4,38 @@
     box-sizing: border-box;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+
 nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: steelblue;
-    padding: 10px;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: steelblue;
 }
 
 h1 {
     color: steelblue;
+    border-bottom: 1px solid steelblue;
 }
 
 main img {
@@ -33,22 +52,28 @@ p {
 }
 
 main {
-    width: 840px;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 aside {
     position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 15px;
+    top: 115px;
+    left: 50px;
     z-index: 1;
+    font-size: 2rem;
 }
 
 aside img {
-    width: 200px;
+    width: 100%;
     height: auto;
     opacity: 0.9;
 }
