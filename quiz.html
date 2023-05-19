@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Quiz</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="quiz">
+        <meta name="author" content="Steven Bates">
+        <link rel="stylesheet" type="text/css" href="styles/quiz.css">
+    </head>
+    <body>
+        <h1>Basic HTML and CSS Quiz</h1>
+        <form>
+            <div class="form-item">
+                <label for="q1"><span>1.</span> What does HTML stand for?</label>
+                <input type="text" name="q1" value="" id="q1" placeholder="Type your answer here...">
+            </div>
+            <div class="form-item">
+                <label for="q2"><span>2.</span> Describe what roles the HTML and CSS have in front end development</label>
+                <textarea rows="5" name="q2" id="q2" placeholder="Type your answer here..."></textarea>
+            </div>
+            <div class="form-item">
+                <label for="q3"><span>3.</span> Which tag is used for a "Table Heading"</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose One...</option>
+                    <option value="th">th</option>
+                    <option value="td">td</option>
+                    <option value="tr">tr</option>
+                </select>
+            </div>
+            <div class="form-item">
+                <label for="q4" name="q4"><span>4.</span> What version of HTML are we on?</label>
+                <input type="number" name="q4" id="q4" value="" placeholder="?">
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </body>
+</html>
