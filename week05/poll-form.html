@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <meta name="description" content="Creating a form">
         <meta name="author" content="Steven Bates">
-
+        <link rel="stylesheet" type="text/css" href="poll-form.css">
     </head>
     <body>
         <header>
@@ -16,29 +16,35 @@
             <form>
                 <fieldset>
                     <legend>Contact Information</legend>
-
-                    <label for="fullname">Full name:</label>
-                    <input type="text" value="" name="fullname" id="fullname" placeholder="John Doe">
-
-                    <label for="useremail">E-mail:</label>
-                    <input type="email" value="" id="useremail" name="useremail" placeholder="name@business.com">
+                    <div class="form-item column2">
+                        <label for="fullname">Full name:</label>
+                        <input type="text" value="" name="fullname" id="fullname" placeholder="John Doe">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">E-mail:</label>
+                        <input type="email" value="" id="useremail" name="useremail" placeholder="name@business.com">
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>Questions</legend>
-
-                    <label for="browser">What is your favorite browser?</label>
-                    <select id="browser" name="browser">
-                        <option value="chrome">Chrome</option>
-                        <option value="edge">Edge</option>
-                        <option value="firefox">Firefox</option>
-                        <option value="safari">Safari</option>
-                        <option value="other">Other</option>
-                    </select>
-
-                    <label for="pet">Do you have a household pet?</label>
-                    <input type="checkbox" name="pet" value="" id="pet">
-                    <label for="feedback">List the places you have lived:</label>
-                    <textarea id="feedback" name="feedback" rows="4" placeholder="North Ogden Utah, Orem Utah"></textarea>
+                    <div class="form-item column1">
+                        <label for="browser">What is your favorite browser?</label>
+                        <select id="browser" name="browser">
+                            <option value="chrome">Chrome</option>
+                            <option value="edge">Edge</option>
+                            <option value="firefox">Firefox</option>
+                            <option value="safari">Safari</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" name="pet" value="" id="pet">
+                    </div>
+                    <div class="form-item column1">
+                        <label for="feedback">List the places you have lived:</label>
+                        <textarea id="feedback" name="feedback" rows="4" placeholder="North Ogden Utah, Orem Utah"></textarea>
+                    </div>
                 </fieldset>
                 <button type="submit">Submit Poll</button>
             </form>
