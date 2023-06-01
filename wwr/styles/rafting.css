@@ -263,3 +263,138 @@ form button {
 main {
     text-align: center;
 }
+
+.contactCTAPara {
+    width: 800px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contactBtn {
+    font-size: 40px;
+    color: white;
+    background-color: rgb(9, 67, 114);
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+.contactBtn:hover {
+    background-color: rgb(5, 111, 197);
+    transition: background-color 0.2s ease-in-out;
+
+}
+
+.threeTripGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3em 0;
+}
+
+.tripBox {
+    justify-self: center;
+    width: 220px;
+    padding: 10px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    box-shadow: 5px 5px 7px 2px rgba(9, 67, 114, 0.2)
+}
+
+.tripBoxImg {
+    width: 200px;
+    height: auto;
+}
+
+.tripBoxBtn {
+    border: none;
+    font-size: 1.4em;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color:rgb(9, 67, 114);
+    color: white;
+}
+
+.tripBoxBtn:hover {
+    background-color:rgb(5, 111, 197);
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+table {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: var(--paragraph-font);
+}
+
+th {
+    background-color: rgb(9, 67, 114);
+    color: white;
+}
+
+td:nth-child(odd) {
+    background-color: #EEEEEE;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.logoCell {
+    background-color: white;
+}
+
+#heroSection {
+    background-image: url("../images/raftingHero.png");
+    background-size: 100%;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+#heroSection h1, #heroSection p {
+    color: white;
+}
+
+#heroSection h1 {
+    padding: 80px;
+    font-size: 3em;
+}
+
+#heroSection p {
+    padding: 50px;
+    position: absolute;
+    font-size: 1.4em;
+    top: 380px;
+    left: 640px;
+    width: 500px;
+    background-color: rgba(3, 31, 68, 0.8)
+}
+
+.rightGridImg , .leftGridImg {
+    width: 600px;
+}
+
+.purposeOfferings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.rightGrid {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+.newsletterCTA form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tripsLink {
+    text-decoration: underline;
+    padding: 5px;
+    background-color:rgba(3, 31, 68, 0.8);
+    color: white;
+    border-radius: 10px;
+}
